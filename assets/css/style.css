@@ -1,21 +1,53 @@
+/* colors */
+
+:root {
+    --heading-color:#DEB992;
+    --text1-color:#D48166;
+    --text2-color: #FFFFFF;
+    --link-color:#1BA098;
+}
+/* global styles */
 * {
     padding:0;
     margin: 0;
     box-sizing: border-box;
 }
 
+
 body {
     background-image: url("/assets/images/pexels-ian-beckley-2440024.jpg");
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     width: fit-content;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+/* typograph */
+
+
+header {
+    display: flex;
+    width: 100%;
+    height: 5rem;
+}
+
+h1 {
+    font-size:4rem;
+    color: var(--heading-color);
 }
 
 
-main {
-   display: grid;
-   grid-template-columns: repeat(6,1fr);
-   
+
+
+
+a {
+    font-size:1.4rem;
+    color: var(--link-color);
 }
+
+
