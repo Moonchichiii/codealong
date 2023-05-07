@@ -1,0 +1,19 @@
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("/assets/images/pexels-ian-beckley-2440024.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+main {
+   display: grid;
+   grid-template-columns: repeat(6,1fr);
+   
+}
