@@ -2,7 +2,7 @@
 
 :root {
     --heading-color:#F2D349;
-    --text1-color:#FB9039;
+    --text1-color:#9E15BF;
     --text2-color: #FFFFFF;
     --link-color:#1BA098;
 }
@@ -15,7 +15,7 @@
 
 
 body {
-    background-image: url("/assets/images/pexels-ian-beckley-2440024.jpg");
+    background-image: url("/assets/images/pexels-joyston-judah-933054.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -69,7 +69,7 @@ span {
     color: var(--text1-color);
 }
 
-.big-text {
+.big-text  {
     text-align: center;
     font-size:3rem;
     color: var(--text2-color);
@@ -77,7 +77,8 @@ span {
 
 
 a {
-    font-size:1.4rem;
+    font-size:2.4rem;
+    font-weight: 600;
     color: var(--link-color);
 }
 
